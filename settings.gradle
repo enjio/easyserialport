@@ -1,0 +1,3 @@
+rootProject.name='XL_SDK_N'
+include ':app'
+include ':easyserialport'

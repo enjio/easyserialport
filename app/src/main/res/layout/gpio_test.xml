@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:textSize="20sp"
+            android:text="GPIO TEST" >
+        </TextView>
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            tools:ignore="DuplicateIds">
+
+            <TextView
+                android:id="@+id/GPIO_Setno_Text"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:text="@string/GPIO_Setno_Text" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/GPIO_SPR"
+                android:layout_width="150dp"
+                android:layout_marginTop="10dip"
+                android:layout_height="wrap_content"
+                 />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/GPIO_Direction_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/GPIO_Direction_Text" >
+        </TextView>
+
+
+            <RadioGroup
+                android:id="@+id/gpio_dir"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/GPIO_Direction_In"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GPIO_Direction_In" />
+
+                <RadioButton
+                    android:id="@+id/GPIO_Direction_Out"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GPIO_Direction_Out" />
+            </RadioGroup>
+        .
+
+        <TextView
+            android:id="@+id/GPIO_Data_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="@string/GPIO_Data_Text" >
+        </TextView>
+        <RadioGroup
+            android:id="@+id/gpio_data"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/GPIO_Data_High"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GPIO_Data_High" />
+
+            <RadioButton
+                android:id="@+id/GPIO_Data_Low"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GPIO_Data_Low" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/GPIO_Resault_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/GPIO_btn"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="10dip"
+            android:text="@android:string/ok" />
+    </LinearLayout>
+
+</ScrollView>
