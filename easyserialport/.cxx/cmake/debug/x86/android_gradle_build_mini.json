@@ -4,14 +4,14 @@
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
       "-C",
       "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-C",
     "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
@@ -20,7 +20,7 @@
     "serialport-Debug-x86": {
       "artifactName": "serialport",
       "buildCommandComponents": [
-        "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
         "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86",
         "serialport"
