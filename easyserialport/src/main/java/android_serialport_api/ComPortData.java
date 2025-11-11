@@ -1,4 +1,4 @@
-package top.xl.easyserialport;
+package android_serialport_api;
 
 /**
  * @author MaybeSix

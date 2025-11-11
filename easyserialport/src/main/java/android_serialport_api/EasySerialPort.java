@@ -1,4 +1,4 @@
-package top.xl.easyserialport;
+package android_serialport_api;
 
 import android.util.Log;
 
@@ -8,8 +8,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.InvalidParameterException;
 
-import android_serialport_api.SerialPort;
-import top.xl.easyserialport.util.HexStringUtils;
+import android_serialport_api.util.HexStringUtils;
 
 /**
  * @author MaybeSix

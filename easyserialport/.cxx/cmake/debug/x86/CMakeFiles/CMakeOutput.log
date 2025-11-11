@@ -1,19 +1,19 @@
 The target system is: Android - 1 - i686
 The host system is: Darwin - 24.1.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a1900"
-[1/2] Building C object CMakeFiles/cmTC_a1900.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_a1900
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3fa40"
+[1/2] Building C object CMakeFiles/cmTC_3fa40.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_3fa40
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_80636"
-[1/2] Building C object CMakeFiles/cmTC_80636.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_80636
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fb2f8"
+[1/2] Building C object CMakeFiles/cmTC_fb2f8.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_fb2f8
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: i686-none-linux-android19
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: /Volumes/Data/Library/Android/sdk/ndk/23.1.777
 Selected GCC installation: /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_80636 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_80636.dir/CMakeCCompilerABI.c.o /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
+ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_fb2f8 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_fb2f8.dir/CMakeCCompilerABI.c.o /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_80636"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_80636.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_80636]
+  ignore line: [Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fb2f8"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_fb2f8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_fb2f8]
   ignore line: [Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: i686-none-linux-android19]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_80636 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_80636.dir/CMakeCCompilerABI.c.o /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  link line: [ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_fb2f8 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_fb2f8.dir/CMakeCCompilerABI.c.o /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
     arg [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -60,7 +60,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_80636] ==> ignore
+    arg [cmTC_fb2f8] ==> ignore
     arg [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> ignore
     arg [-L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386] ==> dir [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386]
     arg [-L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -72,7 +72,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_80636.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fb2f8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a] ==> lib [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a]
     arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
     arg [-ldl] ==> lib [dl]
@@ -96,11 +96,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7e90a"
-[1/2] Building C object CMakeFiles/cmTC_7e90a.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_7e90a
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1beb6"
+[1/2] Building C object CMakeFiles/cmTC_1beb6.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_1beb6
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -110,11 +110,11 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_10ef9"
-[1/2] Building C object CMakeFiles/cmTC_10ef9.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_10ef9
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e4c9a"
+[1/2] Building C object CMakeFiles/cmTC_e4c9a.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_e4c9a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -124,11 +124,11 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0ed3e"
-[1/2] Building C object CMakeFiles/cmTC_0ed3e.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_0ed3e
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0a25f"
+[1/2] Building C object CMakeFiles/cmTC_0a25f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_0a25f
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -136,19 +136,19 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_38741"
-[1/2] Building CXX object CMakeFiles/cmTC_38741.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_38741
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6e3b7"
+[1/2] Building CXX object CMakeFiles/cmTC_6e3b7.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_6e3b7
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6153a"
-[1/2] Building CXX object CMakeFiles/cmTC_6153a.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_6153a
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5c7f0"
+[1/2] Building CXX object CMakeFiles/cmTC_5c7f0.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_5c7f0
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: i686-none-linux-android19
 Thread model: posix
@@ -158,16 +158,16 @@ Found candidate GCC installation: /Volumes/Data/Library/Android/sdk/ndk/23.1.777
 Selected GCC installation: /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6153a /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_6153a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
+ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5c7f0 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5c7f0.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6153a"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_6153a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_6153a]
+  ignore line: [Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5c7f0"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_5c7f0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_5c7f0]
   ignore line: [Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: i686-none-linux-android19]
   ignore line: [Thread model: posix]
@@ -179,7 +179,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_6153a /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_6153a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
+  link line: [ "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5c7f0 /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5c7f0.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl -lc /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-i686-android.a -l:libunwind.a -ldl /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
     arg [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -195,7 +195,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6153a] ==> ignore
+    arg [cmTC_5c7f0] ==> ignore
     arg [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> ignore
     arg [-L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386] ==> dir [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/12.0.8/lib/linux/i386]
     arg [-L/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -207,7 +207,7 @@ Parsed CXX implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_6153a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5c7f0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -235,11 +235,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a2954"
-[1/2] Building CXX object CMakeFiles/cmTC_a2954.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a2954
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8bb31"
+[1/2] Building CXX object CMakeFiles/cmTC_8bb31.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_8bb31
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -302,11 +302,11 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_47a14"
-[1/2] Building CXX object CMakeFiles/cmTC_47a14.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_47a14
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2d8a6"
+[1/2] Building CXX object CMakeFiles/cmTC_2d8a6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_2d8a6
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -369,11 +369,11 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9fbd1"
-[1/2] Building CXX object CMakeFiles/cmTC_9fbd1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_9fbd1
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fdcf8"
+[1/2] Building CXX object CMakeFiles/cmTC_fdcf8.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_fdcf8
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -436,11 +436,11 @@ Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ni
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6233d"
-[1/2] Building CXX object CMakeFiles/cmTC_6233d.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_6233d
+Run Build Command:"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_421e7"
+[1/2] Building CXX object CMakeFiles/cmTC_421e7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_421e7
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

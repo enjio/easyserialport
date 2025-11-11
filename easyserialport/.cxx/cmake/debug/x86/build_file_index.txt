@@ -1,1 +1,1 @@
-/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/CMakeLists.txt
+/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/CMakeLists.txt

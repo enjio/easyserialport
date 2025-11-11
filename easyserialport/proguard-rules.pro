@@ -19,3 +19,22 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# 保持序列化相关
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# 保持native方法
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# 保持EasySerialPort相关类
+
+-keep class top.xl.easyserialport.EasySerialPort$** { *; }
+-keep class android_serialport_api.** { *; }

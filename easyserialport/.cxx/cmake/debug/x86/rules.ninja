@@ -42,7 +42,7 @@ rule C_SHARED_LIBRARY_LINKER__serialport
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport -B/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86
+  command = /Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport -B/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-package top.xl.sdk;
+package android_led_api;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -29,6 +29,7 @@ public class LEDUtils {
      * offtime ： （单位ms，闪烁灭的时间）
      * onoff ： （true: 闪烁， false：灭）
      */
+//  trigger:  [none] rfkill-any rfkill-none rfkill0 mmc0 mtk_charger_type-online ac-online usb-online battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid mtk-gauge-online mtk-master-charger-online mtk-slave-charger-online mmc1 rfkill1
     static public void setled(int color,int ontime,int offtime ,boolean onoff){
         String ledtri = "/sys/class/leds/red/trigger";
         String ledontime = "/sys/class/leds/red/delay_on";

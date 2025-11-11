@@ -1,34 +1,34 @@
 {
   "stringTable": {},
   "buildFiles": [
-    "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/CMakeLists.txt"
+    "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
       "-C",
-      "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/armeabi-v7a",
+      "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/armeabi-v7a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-C",
-    "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/armeabi-v7a",
+    "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/armeabi-v7a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "serialport-Debug-armeabi-v7a": {
       "buildCommandComponents": [
-        "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/armeabi-v7a",
+        "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/armeabi-v7a",
         "serialport"
       ],
       "buildType": "debug",
       "abi": "armeabi-v7a",
       "artifactName": "serialport",
-      "output": "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/build/intermediates/cmake/debug/obj/armeabi-v7a/libserialport.so",
+      "output": "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cmake/debug/obj/armeabi-v7a/libserialport.so",
       "runtimeFiles": []
     }
   },

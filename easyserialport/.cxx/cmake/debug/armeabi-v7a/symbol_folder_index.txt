@@ -1,1 +1,1 @@
-/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/build/intermediates/cmake/debug/obj/armeabi-v7a
+/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cmake/debug/obj/armeabi-v7a

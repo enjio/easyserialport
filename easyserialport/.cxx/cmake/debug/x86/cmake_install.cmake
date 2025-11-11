@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport
+# Install script for directory: /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

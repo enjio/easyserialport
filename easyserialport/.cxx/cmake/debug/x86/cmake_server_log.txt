@@ -16,8 +16,8 @@ CMAKE SERVER: {
     "major": 1,
     "minor": 1
   },
-  "sourceDirectory": "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport",
-  "buildDirectory": "/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86",
+  "sourceDirectory": "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport",
+  "buildDirectory": "/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86",
   "generator": "Ninja"
 }
 
@@ -37,7 +37,7 @@ CMAKE SERVER: {
   "type": "configure",
   "cacheArguments": [
     "",
-    "-DCMAKE_FIND_ROOT_PATH\u003d/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/prefab/x86/prefab",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/prefab/x86/prefab",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
     "-DCMAKE_TOOLCHAIN_FILE\u003d/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
     "-DANDROID_ABI\u003dx86",
@@ -46,8 +46,8 @@ CMAKE SERVER: {
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
     "-DCMAKE_ANDROID_NDK\u003d/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/build/intermediates/cmake/debug/obj/x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/build/intermediates/cmake/debug/obj/x86",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cmake/debug/obj/x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cmake/debug/obj/x86",
     "-DCMAKE_MAKE_PROGRAM\u003d/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_SYSTEM_VERSION\u003d19"
@@ -98,7 +98,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -109,8 +109,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -119,8 +119,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -154,7 +154,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -165,8 +165,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -175,8 +175,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -210,7 +210,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -221,8 +221,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -231,8 +231,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -246,7 +246,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -257,8 +257,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -267,8 +267,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -282,7 +282,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -293,8 +293,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -303,8 +303,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -338,7 +338,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -349,8 +349,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -359,8 +359,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -394,7 +394,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -405,8 +405,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -415,8 +415,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -450,7 +450,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -461,8 +461,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -471,8 +471,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -486,7 +486,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -497,8 +497,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -507,8 +507,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -522,7 +522,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -533,8 +533,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -543,8 +543,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -558,7 +558,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -569,8 +569,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -579,8 +579,8 @@ CMAKE SERVER: CMake Warning at /Volumes/Data/Library/Android/sdk/ndk/23.1.777962
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   /Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  /Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -667,7 +667,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/platforms.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/compiler_id.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport","type":"reply"}
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/platforms.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/compiler_id.cmake","../../../Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -681,7 +681,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86","name":"Project","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport","targets":[{"artifacts":["/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/build/intermediates/cmake/debug/obj/x86/libserialport.so"],"buildDirectory":"/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport/.cxx/cmake/debug/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC  ","defines":["serialport_EXPORTS"],"isGenerated":false,"language":"C","sources":["src/main/jni/SerialPort.c"]}],"fullName":"libserialport.so","linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -latomic -lm","linkerLanguage":"C","name":"serialport","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_N/easyserialport","sysroot":"/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86","name":"Project","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport","targets":[{"artifacts":["/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cmake/debug/obj/x86/libserialport.so"],"buildDirectory":"/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC  ","defines":["serialport_EXPORTS"],"isGenerated":false,"language":"C","sources":["src/main/jni/SerialPort.c"]}],"fullName":"libserialport.so","linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog -latomic -lm","linkerLanguage":"C","name":"serialport","sourceDirectory":"/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport","sysroot":"/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
