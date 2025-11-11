@@ -74,5 +74,5 @@ protected void onDataReceived(final ComBean comBean) {
 }
 ```
 
+## 基于[Android-Serialport](https://github.com/xmaihh/Android-Serialport)修改
 
-## 基于https://github.com/xmaihh/Android-Serialport修改
