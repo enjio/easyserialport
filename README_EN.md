@@ -7,12 +7,12 @@ serialPortFinder.getAllDevicesPath();
 
 ## 2. Serial Port Property Settings
 ```
-serialHelper.setPort(String sPort);      // Set the serial port
-serialHelper.setBaudRate(int iBaud);     // Set the baud rate
-serialHelper.setStopBits(int stopBits);  // Set the stop bit
-serialHelper.setDataBits(int dataBits);  // Set the data bit
-serialHelper.setParity(int parity);      // Set the check bit
-serialHelper.setFlowCon(int flowcon);    // Set the flow control
+serialPort.setPort(String sPort);      // Set the serial port
+serialPort.setBaudRate(int iBaud);     // Set the baud rate
+serialPort.setStopBits(int stopBits);  // Set the stop bit
+serialPort.setDataBits(int dataBits);  // Set the data bit
+serialPort.setParity(int parity);      // Set the check bit
+serialPort.setFlowCon(int flowcon);    // Set the flow control
 ```
 
 
@@ -20,25 +20,44 @@ serialHelper.setFlowCon(int flowcon);    // Set the flow control
 
 ## 3. Open Serial Port
 ```
-serialHelper.open();
+serialPort.open();
 ```
 
 ## 4. Close Serial Port
 ```
-serialHelper.close();
+serialPort.close();
 ```
 
 ## 5. Send Data
 ```
-serialHelper.send(byte[] bOutArray); // Send byte array
-serialHelper.sendHex(String sHex);   // Send Hex data
-serialHelper.sendTxt(String sTxt);   // Send ASCII text
+serialPort.send(byte[] bOutArray); // Send byte array
+serialPort.sendHex(String sHex);   // Send Hex data
+serialPort.sendTxt(String sTxt);   // Send ASCII text
 ```
 
 ## 6. Receive Data
+```java
+ serialPort.setListener(new EasySerialPort.OnSerialPortReceivedListener() {
+    @Override
+    public void onSerialPortDataReceived(ComPortData comPortData) {
+        String str = HexStringUtils.byteArray2HexString(comPortData.getRecData());
+        Log.i("keyboad", str);
+    }
+})
 ```
-@Override
-protected void onDataReceived(final ComBean comBean) {
-    Toast.makeText(getBaseContext(), new String(comBean.bRec, "UTF-8"), Toast.LENGTH_SHORT).show();
-}
+
+## 7. Monitor serial port opening and closing
+
+```java
+serialPort.setSatesListener(new EasySerialPort.OnStatesChangeListener() {
+    @Override
+    public void onOpen(boolean isSuccess, String reason) {
+        Log.i("EasySerialPort", "isSuccess：$isSuccess,reason：$reason");
+    }
+
+    @Override
+    public void onClose() {
+        Log.i("EasySerialPort", "cloased");
+    }
+})
 ```
