@@ -1,5 +1,7 @@
 # EasySerialPort
 
+[English](https://github.com/enjio/easyserialport/blob/main/README_EN.md)
+
 ## 添加仓库到根目录的 settings.gradle
 
 在 `repositories` 块末尾添加：
@@ -73,4 +75,4 @@ protected void onDataReceived(final ComBean comBean) {
 ```
 
 
-##基于https://github.com/xmaihh/Android-Serialport修改
+## 基于https://github.com/xmaihh/Android-Serialport修改
