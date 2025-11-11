@@ -72,35 +72,5 @@ protected void onDataReceived(final ComBean comBean) {
 }
 ```
 
-## 7. 粘包处理
 
-支持粘包处理，原因详见 [Issue](https://github.com/xmaihh/Android-Serialport/issues/1)，提供以下粘包处理方式：
-
-- 不处理（默认）
-- 首尾特殊字符处理
-- 固定长度处理
-- 动态长度处理
-
-支持自定义粘包处理。
-
-### 第一步
-
-实现 [AbsStickPackageHelper](https://github.com/xmaihh/Android-Serialport/blob/master/serialport/src/main/java/tp/xmaihh/serialport/stick/AbsStickPackageHelper.java) 接口。
-
-```java
-/**
- * 消息接收粘包处理助手，通过InputStream返回最终数据，需要手动处理粘包，返回的byte[]是我们期望的完整数据。
- * 注意：此方法会被重复调用，直到解析出完整的一条数据。此方法是同步的，尽量不要做耗时操作，否则会阻塞数据读取。
- */
-public interface AbsStickPackageHelper {
-    byte[] execute(InputStream is);
-}
-```
-
-### 第二步
-
-设置粘包处理方式：
-
-```java
-serialHelper.setStickPackageHelper(AbsStickPackageHelper mStickPackageHelper);
-```
+##基于https://github.com/xmaihh/Android-Serialport修改
