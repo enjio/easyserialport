@@ -1,0 +1,7 @@
+Executable : /Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/release/x86_64
+serialport
+jvmArgs : 
+

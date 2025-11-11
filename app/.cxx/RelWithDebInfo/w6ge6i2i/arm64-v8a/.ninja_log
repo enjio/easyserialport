@@ -1,0 +1,17 @@
+# ninja log v5
+0	11	0	clean	bbb54cf2d51e14dd
+0	458	1762764440371090267	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	1ae75d0223b4dc7d
+459	696	1762764440610124296	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568
+0	10	0	clean	bbb54cf2d51e14dd
+0	454	1762764659735919039	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	1ae75d0223b4dc7d
+454	672	1762764659954647641	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568
+0	10	0	clean	bbb54cf2d51e14dd
+0	436	1762766561075717273	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	1ae75d0223b4dc7d
+436	656	1762766561296955279	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568
+0	12	0	clean	bbb54cf2d51e14dd
+1	523	1762767031902379658	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	1ae75d0223b4dc7d
+523	756	1762767032136761072	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568
+0	20	0	clean	bbb54cf2d51e14dd
+0	447	1762767443705903558	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	1ae75d0223b4dc7d
+447	691	1762767443951877876	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568
+1	423	1762768283288849553	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/arm64-v8a/libgpioctl.so	31e9cff3dba9b568

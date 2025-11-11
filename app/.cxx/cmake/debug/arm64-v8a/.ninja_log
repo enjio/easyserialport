@@ -1,0 +1,10 @@
+# ninja log v5
+0	178	1755683632	CMakeFiles/gpio_jni.dir/src/main/cpp/gpio_jni.c.o	6c798e2133cc9e94
+178	258	1755683632	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libgpio_jni.so	4eb1e9185e9e9ae8
+0	439	1755684497	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	86675fbabdeadffe
+440	682	1755684497	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libgpioctl.so	13d4c507efa11d37
+0	28	0	clean	c14aea58e3dd9f2d
+0	461	1755685090	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	86675fbabdeadffe
+461	700	1755685090	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libgpioctl.so	13d4c507efa11d37
+0	485	1755685605	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	86675fbabdeadffe
+485	709	1755685606	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libgpioctl.so	13d4c507efa11d37

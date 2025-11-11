@@ -1,34 +1,34 @@
 {
   "stringTable": {},
   "buildFiles": [
-    "/Volumes/Data/StudioProjects/XL_SDK_N/app/CMakeLists.txt"
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
       "-C",
-      "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
+      "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-C",
-    "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "analoginput-Debug-x86": {
+    "gpioctl-Debug-x86": {
       "buildCommandComponents": [
-        "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "-C",
-        "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-        "analoginput"
+        "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
+        "gpioctl"
       ],
       "buildType": "debug",
       "abi": "x86",
-      "artifactName": "analoginput",
-      "output": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates/cmake/debug/obj/x86/libanaloginput.so",
+      "artifactName": "gpioctl",
+      "output": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/debug/obj/x86/libgpioctl.so",
       "runtimeFiles": []
     }
   },

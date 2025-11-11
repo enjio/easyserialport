@@ -1,0 +1,18 @@
+                        -H/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=19
+-DANDROID_PLATFORM=android-19
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620
+-DCMAKE_ANDROID_NDK=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620
+-DCMAKE_TOOLCHAIN_FILE=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Volumes/Data/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cxx/RelWithDebInfo/4u216m2c/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cxx/RelWithDebInfo/4u216m2c/obj/x86
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/RelWithDebInfo/4u216m2c/x86
+-GNinja
+                        Build command args: []
+                        Version: 2

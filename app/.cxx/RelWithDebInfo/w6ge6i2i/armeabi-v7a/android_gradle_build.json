@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Volumes/Data/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/RelWithDebInfo/w6ge6i2i/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Volumes/Data/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/RelWithDebInfo/w6ge6i2i/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "gpioctl::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "gpioctl",
+      "output": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/armeabi-v7a/libgpioctl.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

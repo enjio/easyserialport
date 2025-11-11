@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="top.xl.sdk"
     android:sharedUserId="android.uid.system">
     <!-- android:sharedUserId="android.uid.system" -->
     <uses-permission
@@ -48,51 +47,9 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity> <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <activity
-            android:name=".FOTAActivity"
-            android:enabled="true"
-            android:exported="true"
-            android:label="fota"
-            android:launchMode="singleTop"
-            >
-        </activity>
-        <activity
-            android:name=".GPIOMainActivity"
-            android:enabled="true"
-            android:exported="true"
-            android:label="gpio"
-            android:launchMode="singleTop"
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="top.xl.schpwronoff.AlarmClock"
-            android:enabled="true"
-            android:exported="true"
-            android:label="schpwronoff"
-            android:launchMode="singleTop"
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="top.xl.schpwronoff.SetAlarm"
-            android:clearTaskOnLaunch="true"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:enabled="true"
-            android:exported="true"
-            android:label="@string/schedule_power_on_off_set">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>

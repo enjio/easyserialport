@@ -37,30 +37,3 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-afterEvaluate {
-    task makeJar(type: Jar) {
-        // 输出路径
-        destinationDirectory = file("$buildDir/libs")
-        archiveBaseName.set("s26sdk")
-        archiveVersion.set("1.0.0")
-        archiveExtension.set("jar")
-
-        // 取编译输出的 class 文件
-        from fileTree(dir: "$buildDir/intermediates/javac/release/classes", include: '**/*.class')
-
-        // 可选：去除 R.class / BuildConfig.class
-        exclude '**/R.class'
-        exclude '**/R$*.class'
-        exclude '**/BuildConfig.*'
-        exclude '**/Manifest.class'
-        exclude '**/Manifest$*.class'
-
-        from fileTree(dir: 'src/main/jniLibs', include: ['**/*.so'])
-
-        // 设置manifest
-        from android.sourceSets.main.java.srcDirs
-
-        dependsOn assembleRelease
-    }
-}

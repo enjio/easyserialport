@@ -59,6 +59,13 @@
         <item>This power off is set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
     </string-array>
 
+    <string-array name="rates">
+        <item>SENSOR_DELAY_FASTEST</item>
+        <item>SENSOR_DELAY_GAME</item>
+        <item>SENSOR_DELAY_UI</item>
+        <item>SENSOR_DELAY_NORMAL</item>
+    </string-array>
+
     <!-- Alarm confirmation toast: singular day -->
     <string name="day">"1 day"</string>
 
@@ -97,4 +104,6 @@
     <string name="revert">Revert</string>
     <string name="schpwr_shutdown_message">"Your device will shut down in <xliff:g id="seconds">%s</xliff:g> seconds"</string>
     <string name="schpwr_shutdown_message_second">"Your device will shut down in <xliff:g id="second">%s</xliff:g> second"</string>
+<!--    采样频率-->
+    <string name="sensor_frequency">"Sampling frequency"</string>
 </resources>

@@ -1,13 +1,7 @@
 [
 {
-  "directory": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-  "command": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android26 --gcc-toolchain=/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Danaloginput_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/analoginput.dir/src/main/jni/InputSystem.c.o   -c /Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/jni/InputSystem.c",
-  "file": "/Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/jni/InputSystem.c"
-},
-
-{
-  "directory": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-  "command": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android26 --gcc-toolchain=/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Danaloginput_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/analoginput.dir/src/main/jni/AnalogInput.c.o   -c /Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/jni/AnalogInput.c",
-  "file": "/Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/jni/AnalogInput.c"
+  "directory": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
+  "command": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android23 --gcc-toolchain=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgpioctl_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o   -c /Volumes/Data/StudioProjects/XL_SDK_S/app/src/main/cpp/gpio_jni.c",
+  "file": "/Volumes/Data/StudioProjects/XL_SDK_S/app/src/main/cpp/gpio_jni.c"
 }
 ]

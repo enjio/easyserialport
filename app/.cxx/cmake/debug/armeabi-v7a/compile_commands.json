@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgpioctl_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o   -c /Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/cpp/gpio_jni.c",
+  "file": "/Volumes/Data/StudioProjects/XL_SDK_N/app/src/main/cpp/gpio_jni.c"
+}
+]

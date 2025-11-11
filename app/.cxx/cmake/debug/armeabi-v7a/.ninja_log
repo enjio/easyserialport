@@ -1,0 +1,3 @@
+# ninja log v5
+0	88	1761819670	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	48508ade3ca52aef
+88	178	1761819670	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libgpioctl.so	984fd513d1b3134

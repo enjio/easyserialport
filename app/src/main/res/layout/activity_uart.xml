@@ -17,7 +17,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:text="" />
 
             <EditText
@@ -27,7 +27,7 @@
                 android:ems="10"
                 android:inputType="text"
                 android:hint="输入串口号"
-                android:text="/dev/ttyMT0" />
+                android:text="/dev/ttyS0" />
 
             <EditText
                 android:id="@+id/et_baud_rate"
@@ -46,21 +46,22 @@
                 android:inputType="textPersonName"
                 android:text="测试文本abc123" />
 
-            <Button
-                android:id="@+id/btn_open"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="打开" />
-            <Button
-                android:id="@+id/btn_close"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="关闭" />
-            <Button
-                android:id="@+id/btn_send"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="发送" />
+
         </LinearLayout>
     </ScrollView>
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开" />
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭" />
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送" />
 </LinearLayout>

@@ -7,10 +7,12 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+        flatDir {
+            dirs("app/libs")  // 指向存放 AAR 的目录
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:7.4.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -21,7 +23,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        maven { url 'https://www.jitpack.io' }
     }
 }
 

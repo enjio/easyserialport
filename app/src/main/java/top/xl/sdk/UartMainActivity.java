@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import top.xl.easyserialport.ComPortData;
-import top.xl.easyserialport.EasySerialPort;
-import top.xl.easyserialport.util.HexStringUtils;
+import android_serialport_api.ComPortData;
+import android_serialport_api.EasySerialPort;
+import android_serialport_api.util.HexStringUtils;
 
 public class UartMainActivity extends Activity  implements View.OnClickListener {
     private final int REQUEST_CODE = 100;
@@ -18,6 +18,9 @@ public class UartMainActivity extends Activity  implements View.OnClickListener 
     EditText et_baudRate ;
     EditText et_send ;
     TextView tv_textView;
+    Button btn_close;
+    Button btn_open;
+    Button btn_send;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,9 +36,9 @@ public class UartMainActivity extends Activity  implements View.OnClickListener 
         et_port = (EditText) findViewById(R.id.et_port);
         et_baudRate = (EditText) findViewById(R.id.et_baud_rate);
         et_send = (EditText) findViewById(R.id.et_send);
-        Button btn_close = (Button) findViewById(R.id.btn_close);
-        Button btn_open = (Button) findViewById(R.id.btn_open);
-        Button btn_send = (Button) findViewById(R.id.btn_send);
+        btn_close = (Button) findViewById(R.id.btn_close);
+        btn_open = (Button) findViewById(R.id.btn_open);
+        btn_send = (Button) findViewById(R.id.btn_send);
         btn_close.setOnClickListener(this);
         btn_open.setOnClickListener(this);
         btn_send.setOnClickListener(this);
@@ -50,38 +53,44 @@ public class UartMainActivity extends Activity  implements View.OnClickListener 
         super.onDestroy();
     }
 
-
-
-
-
     @Override
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_close:
                 if(serialPort!=null){
                     serialPort.close();
+                    serialPort = null;
                 }
                 break;
 
             case R.id.btn_open:
+                if(serialPort!=null){
+                    serialPort.close();
+                    serialPort = null;
+                }
                 int baudrate = Integer.parseInt(String.valueOf(et_baudRate.getText()));
                 String port = String.valueOf(et_port.getText());
                 try {
                     serialPort = new EasySerialPort.Builder()
                             .setBaudRate(baudrate)
                             .setPort(port)
-//                    .setPort("/dev/ttyMT1")
                             .setSatesListener(new EasySerialPort.OnStatesChangeListener() {
                                 @Override
                                 public void onOpen(boolean isSuccess, String reason) {
                                     Log.i("keyboad", "是否开启成功：$isSuccess,原因：$reason");
                                     tv_textView.append("是否开启成功："+isSuccess+",原因："+reason+"\n");
+                                    if(isSuccess){
+                                        btn_open.setVisibility(View.GONE);
+                                        btn_close.setVisibility(View.VISIBLE);
+                                    }
                                 }
 
                                 @Override
                                 public void onClose() {
                                     Log.i("keyboad", "已关闭");
                                     tv_textView.append("已关闭\n");
+                                    btn_open.setVisibility(View.VISIBLE);
+                                    btn_close.setVisibility(View.GONE);
                                 }
                             })
                             .setListener(new EasySerialPort.OnSerialPortReceivedListener() {

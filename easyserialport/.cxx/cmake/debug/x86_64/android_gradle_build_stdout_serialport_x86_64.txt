@@ -1,0 +1,3 @@
+ninja: Entering directory `/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/debug/x86_64'
+[1/2] Building C object CMakeFiles/serialport.dir/src/main/jni/SerialPort.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libserialport.so

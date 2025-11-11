@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/release/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/release/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "gpioctl-Release-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/release/arm64-v8a",
+        "gpioctl"
+      ],
+      "buildType": "release",
+      "abi": "arm64-v8a",
+      "artifactName": "gpioctl",
+      "output": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/release/obj/arm64-v8a/libgpioctl.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/.cxx/RelWithDebInfo/422g1q5m/armeabi-v7a",
+  "command": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --sysroot=/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dserialport_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fexceptions -O2 -g -DNDEBUG -fPIC -o CMakeFiles/serialport.dir/src/main/jni/SerialPort.c.o -c /Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/src/main/jni/SerialPort.c",
+  "file": "/Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/src/main/jni/SerialPort.c"
+}
+]

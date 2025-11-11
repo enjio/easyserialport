@@ -10,6 +10,7 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.Toast;
 
+import android_led_api.LEDUtils;
 
 public class MainActivity extends Activity {
 
@@ -23,25 +24,24 @@ public class MainActivity extends Activity {
         startActivity(new android.content.Intent(this, UartMainActivity.class));
     }
 
-    public void onGpioClick(View view) {
-        startActivity(new android.content.Intent(this, GPIOMainActivity.class));
-    }
-    //定时开关机
-    public void onAlarmClick(View view) {
-        startActivity(new android.content.Intent(this, top.xl.schpwronoff.AlarmClock.class));
-    }
 
     public void onOffClick(View view) {
         sendBroadcast(new Intent("android.intent.action.SHUTDOWN"));
     }
-    boolean ledopened = false;
+    int ledopened = 0;
     public void onLedClick(View view) {
-        if(ledopened){
-            LEDUtils.setled(LEDUtils.GREEN,false);
-            ledopened = false;
-        }else{
+        if(ledopened == 0) {
+            LEDUtils.setled(LEDUtils.RED, true);
+            ledopened = 1;
+        }else if(ledopened == 1){
+            LEDUtils.setled(LEDUtils.RED,false);
+              ledopened = 2;
+        }else if(ledopened == 2){
             LEDUtils.setled(LEDUtils.GREEN,true);
-            ledopened = true;
+            ledopened = 3;
+        }else if(ledopened == 3){
+            LEDUtils.setled(LEDUtils.GREEN,false);
+            ledopened = 0;
         }
     }
 
@@ -65,9 +65,6 @@ public class MainActivity extends Activity {
     public void onBrightnessClick(View view) {
         toggleBrightness();
     }
-
-
-
 
     private static int brightnessleve = 0;
     private void toggleBrightness(){
@@ -103,12 +100,5 @@ public class MainActivity extends Activity {
         mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 12, 0); //设置音量
     }
     ///FOTA
-    public void onFotaClick(View view) {
-        startActivity(new Intent(this, FOTAActivity.class));
-    }
-    //静默安装
-    public void onInstallClick(View view) {
-        String result = SilentInstallUtils.installSilent("top.xl.sdk","/sdcard/test.apk");
-        Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
-    }
+
 }

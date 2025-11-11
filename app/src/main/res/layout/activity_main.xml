@@ -6,89 +6,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btn_gpio"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onGpioClick"
-        android:text="GPIO" />
+        android:layout_weight="1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
     <Button
         android:id="@+id/btn_uart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onUartClick"
         android:text="UART" />
-    <Button
-        android:id="@+id/btn_alarm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onAlarmClick"
-        android:text="定时开关机" />
-    <Button
-        android:id="@+id/btn_off"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onOffClick"
-        android:text="关机" />
+
+
     <Button
         android:id="@+id/btn_led"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onLedClick"
         android:text="LED" />
-    <Button
-        android:id="@+id/btn_reboot"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onRebootClick"
-        android:text="重启" />
-    <Button
-        android:id="@+id/btn_factoryreset"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onFactoryRestOnclick"
-        android:text="恢复出厂设置" />
 
-    <Button
-        android:id="@+id/btn_sn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onSNClick"
-        android:text="SN" />
 
-    <Button
-        android:id="@+id/btn_screenshot"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onScreenshotClick"
-        android:text="截屏" />
 
-    <Button
-        android:id="@+id/btn_brigtness"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onBrightnessClick"
-        android:text="屏幕亮度" />
 
-    <Button
-        android:id="@+id/btn_audio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onAudioClick"
-        android:text="音量调节" />
 
-    <Button
-        android:id="@+id/btn_ota"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onFotaClick"
-        android:text="FOTA" />
-
-    <Button
-        android:id="@+id/btn_install"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onInstallClick"
-        android:text="静默安装" />
+</LinearLayout>
+    </ScrollView>
 </LinearLayout>

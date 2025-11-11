@@ -1,0 +1,10 @@
+# ninja log v5
+0	9	0	clean	bbb54cf2d51e14dd
+1	96	1762764441593146560	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	11081a96bf1e6b46
+97	140	1762764441636514475	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/x86/libgpioctl.so	bd12c02880d8a322
+0	12	0	clean	bbb54cf2d51e14dd
+0	13	0	clean	bbb54cf2d51e14dd
+0	84	1762766682466620970	CMakeFiles/gpioctl.dir/src/main/cpp/gpio_jni.c.o	11081a96bf1e6b46
+84	131	1762766682513640545	../../../../build/intermediates/cxx/RelWithDebInfo/w6ge6i2i/obj/x86/libgpioctl.so	bd12c02880d8a322
+0	16	0	clean	bbb54cf2d51e14dd
+0	13	0	clean	bbb54cf2d51e14dd

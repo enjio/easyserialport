@@ -1,0 +1,3 @@
+/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/RelWithDebInfo/w6ge6i2i/x86_64/CMakeFiles/gpioctl.dir
+/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/RelWithDebInfo/w6ge6i2i/x86_64/CMakeFiles/edit_cache.dir
+/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/RelWithDebInfo/w6ge6i2i/x86_64/CMakeFiles/rebuild_cache.dir

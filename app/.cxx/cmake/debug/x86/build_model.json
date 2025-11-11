@@ -6,12 +6,12 @@
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-  "cxxBuildFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-  "abiPlatformVersion": 26,
+  "originalCxxBuildFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
+  "cxxBuildFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
+  "abiPlatformVersion": 23,
   "cmake": {
-    "cmakeWrappingBaseFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cxx/debug/x86",
-    "cmakeArtifactsBaseFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
+    "cmakeWrappingBaseFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cxx/debug/x86",
+    "cmakeArtifactsBaseFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -19,13 +19,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86",
-      "cmakeToolchain": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86",
+      "cmakeToolchain": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/prefab/x86/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake"
+          "value": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,11 +41,11 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620"
+          "value": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620"
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-26"
+          "value": "android-23"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620"
+          "value": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,15 +61,15 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "value": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -77,19 +77,19 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "26"
+          "value": "23"
         }
       ]
     },
-    "cmakeServerLogFile": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/x86/cmake_server_log.txt"
+    "cmakeServerLogFile": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/x86/cmake_server_log.txt"
   },
   "variant": {
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "objFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates/cmake/debug/obj",
-    "soFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/debug/obj",
+    "soFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates/cmake/debug/lib",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
@@ -101,15 +101,15 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx",
+      "cxxFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx",
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build/intermediates",
+      "intermediatesFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build/intermediates",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app",
-      "moduleBuildFile": "/Volumes/Data/StudioProjects/XL_SDK_N/app/build.gradle",
-      "makeFile": "/Volumes/Data/StudioProjects/XL_SDK_N/app/CMakeLists.txt",
+      "moduleRootFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app",
+      "moduleBuildFile": "/Volumes/Data/StudioProjects/XL_SDK_S/app/build.gradle",
+      "makeFile": "/Volumes/Data/StudioProjects/XL_SDK_S/app/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620",
+      "ndkFolder": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620",
       "ndkVersion": "23.1.7779620",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -173,31 +173,31 @@
           "default": true
         }
       ],
-      "originalCmakeToolchainFile": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
-      "cmakeToolchainFile": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "originalCmakeToolchainFile": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
       "cmake": {
         "isValidCmakeAvailable": true,
-        "cmakeExe": "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/Users/nick/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "ninjaExe": "/Volumes/Data/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
         "isPreferCmakeFileApiEnabled": true
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/nick/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Volumes/Data/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/Volumes/Data/StudioProjects/XL_SDK_N",
-        "cxxFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/.cxx",
-        "compilerSettingsCacheFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/.cxx",
-        "sdkFolder": "/Users/nick/Library/Android/sdk",
+        "rootBuildGradleFolder": "/Volumes/Data/StudioProjects/XL_SDK_S",
+        "cxxFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/.cxx",
+        "compilerSettingsCacheFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/.cxx",
+        "sdkFolder": "/Volumes/Data/Library/Android/sdk",
         "isNativeCompilerSettingsCacheEnabled": false,
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
@@ -206,10 +206,10 @@
       },
       "nativeBuildOutputLevel": "QUIET"
     },
-    "prefabDirectory": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/prefab"
+    "prefabDirectory": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/prefab"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/Volumes/Data/StudioProjects/XL_SDK_N/app/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "/Volumes/Data/StudioProjects/XL_SDK_S/app/.cxx/cmake/debug/prefab/x86"
 }
