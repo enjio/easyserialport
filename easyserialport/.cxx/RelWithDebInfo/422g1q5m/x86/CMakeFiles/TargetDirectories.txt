@@ -1,3 +1,0 @@
-/Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/.cxx/RelWithDebInfo/422g1q5m/x86/CMakeFiles/serialport.dir
-/Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/.cxx/RelWithDebInfo/422g1q5m/x86/CMakeFiles/edit_cache.dir
-/Volumes/Data/StudioProjects/XL_SDK_S/s26sdk/.cxx/RelWithDebInfo/422g1q5m/x86/CMakeFiles/rebuild_cache.dir

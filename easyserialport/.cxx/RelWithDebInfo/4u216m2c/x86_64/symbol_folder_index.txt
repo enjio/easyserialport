@@ -1,1 +1,0 @@
-/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/build/intermediates/cxx/RelWithDebInfo/4u216m2c/obj/x86_64

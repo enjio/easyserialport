@@ -1,4 +1,0 @@
-# ninja log v5
-0	389	1762763152358848387	CMakeFiles/serialport.dir/src/main/jni/SerialPort.c.o	28af868af34db574
-389	602	1762763152571596769	../../../../build/intermediates/cxx/RelWithDebInfo/4u216m2c/obj/arm64-v8a/libserialport.so	64252e50cd57c685
-1	250	1762829244070360598	../../../../build/intermediates/cxx/RelWithDebInfo/4u216m2c/obj/arm64-v8a/libserialport.so	64252e50cd57c685

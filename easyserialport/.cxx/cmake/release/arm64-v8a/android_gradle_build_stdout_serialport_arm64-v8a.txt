@@ -1,2 +1,0 @@
-ninja: Entering directory `/Volumes/Data/StudioProjects/XL_SDK_S/easyserialport/.cxx/cmake/release/arm64-v8a'
-ninja: no work to do.
