@@ -1,84 +1,106 @@
-# easyserialport
-# Document
+# EasySerialPort
 
+## 添加仓库到根目录的 settings.gradle
 
-Add it in your root settings.gradle at the end of repositories:
+在 `repositories` 块末尾添加：
 
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
-Step 2. Add the dependency
-
-	dependencies {
-	        implementation 'com.github.enjio:easyserialport:1.0.0'
-	}
-
-
-
-# Function
-## 1.List the serial port
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
+
+## 第二步：添加依赖
+
+```gradle
+dependencies {
+    implementation 'com.github.enjio:easyserialport:1.0.0'
+}
+```
+
+# 功能说明
+
+## 1. 列出串口设备
+
+```java
 serialPortFinder.getAllDevicesPath();
 ```
-## 2.Serial port property settings
-```
-serialHelper.setPort(String sPort);      //set the serial port
-serialHelper.setBaudRate(int iBaud);     //set the baud rate
-serialHelper.setStopBits(int stopBits);  //set the stop bit
-serialHelper.setDataBits(int dataBits);  //set the data bit
-serialHelper.setParity(int parity);      //set the check bit
-serialHelper.setFlowCon(int flowcon);    //set the flow control
 
+## 2. 串口属性设置
 
-Serial port property settings must be set before the function 'open()' is executed.
-## 3. Open the serial port
+```java
+serialHelper.setPort(String sPort);      // 设置串口
+serialHelper.setBaudRate(int iBaud);     // 设置波特率
+serialHelper.setStopBits(int stopBits);  // 设置停止位
+serialHelper.setDataBits(int dataBits);  // 设置数据位
+serialHelper.setParity(int parity);      // 设置校验位
+serialHelper.setFlowCon(int flowcon);    // 设置流控制
 ```
+
+**注意：** 串口属性设置必须在 `open()` 函数执行之前设置。
+
+## 3. 打开串口
+
+```java
 serialHelper.open();
 ```
-## 4.Close the serial port
-```
+
+## 4. 关闭串口
+
+```java
 serialHelper.close();
 ```
-## 5.Send
+
+## 5. 发送数据
+
+```java
+serialHelper.send(byte[] bOutArray); // 发送字节数组
+serialHelper.sendHex(String sHex);   // 发送十六进制数据
+serialHelper.sendTxt(String sTxt);   // 发送ASCII文本
 ```
-serialHelper.send(byte[] bOutArray); // send byte[]
-serialHelper.sendHex(String sHex);  // send Hex
-serialHelper.sendTxt(String sTxt);  // send ASCII
-```
-## 6.Receiving
-```
- @Override
+
+## 6. 接收数据
+
+```java
+@Override
 protected void onDataReceived(final ComBean comBean) {
-       Toast.makeText(getBaseContext(), new String(comBean.bRec, "UTF-8"), Toast.LENGTH_SHORT).show();
-   }
+    Toast.makeText(getBaseContext(), new String(comBean.bRec, "UTF-8"), Toast.LENGTH_SHORT).show();
+}
 ```
-## 7.Sticky processing
-Support sticky package processing, the reason is seen in the [Issue](https://github.com/xmaihh/Android-Serialport/issues/1) , the provided sticky package processing
-- Not processed (default)
-- First and last special character processing
-- Fixed length processing
-- Dynamic length processing
 
-Supports custom sticky packet processing.
+## 7. 粘包处理
 
-## Step 1
-The first step is to implement the [AbsStickPackageHelper](https://github.com/xmaihh/Android-Serialport/blob/master/serialport/src/main/java/tp/xmaihh/serialport/stick/AbsStickPackageHelper.java) interface.
-```
+支持粘包处理，原因详见 [Issue](https://github.com/xmaihh/Android-Serialport/issues/1)，提供以下粘包处理方式：
+
+- 不处理（默认）
+- 首尾特殊字符处理
+- 固定长度处理
+- 动态长度处理
+
+支持自定义粘包处理。
+
+### 第一步
+
+实现 [AbsStickPackageHelper](https://github.com/xmaihh/Android-Serialport/blob/master/serialport/src/main/java/tp/xmaihh/serialport/stick/AbsStickPackageHelper.java) 接口。
+
+```java
 /**
- * Accept the message, the helper of the sticky packet processing, return the final data through inputstream, need to manually process the sticky packet, and the returned byte[] is the complete data we expected.
- * Note: This method will be called repeatedly until it resolves to a complete piece of data. This method is synchronous, try not to do time-consuming operations, otherwise it will block reading data.
+ * 消息接收粘包处理助手，通过InputStream返回最终数据，需要手动处理粘包，返回的byte[]是我们期望的完整数据。
+ * 注意：此方法会被重复调用，直到解析出完整的一条数据。此方法是同步的，尽量不要做耗时操作，否则会阻塞数据读取。
  */
 public interface AbsStickPackageHelper {
     byte[] execute(InputStream is);
 }
 ```
-## Step 2
-Set sticky package processing
-```
+
+### 第二步
+
+设置粘包处理方式：
+
+```java
 serialHelper.setStickPackageHelper(AbsStickPackageHelper mStickPackageHelper);
 ```
-
