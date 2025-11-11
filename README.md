@@ -29,7 +29,7 @@ dependencies {
 ## 1. 列出串口设备
 
 ```java
-serialPort.getAllDevicesPath();
+serialPortFinder.getAllDevicesPath();
 ```
 
 ## 2. 串口属性设置
