@@ -1,33 +1,45 @@
 package top.xl.sdk;
 
-import android.app.Activity;
-import android.content.Context;
+import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Intent;
-import android.media.AudioManager;
-import android.os.AsyncTask;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
+
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import android_led_api.LEDUtils;
 
-public class MainActivity extends Activity {
-
+public class MainActivity extends AppCompatActivity {
+    private static final int LOCATION_PERMISSION_REQUEST_CODE = 1001;
+    private static final int BACKGROUND_LOCATION_PERMISSION_REQUEST_CODE = 1002;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // 检查并请求权限
+        checkAndRequestLocationPermissions();
+
+        Intent intent = new Intent(this, LocationService.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(intent);
+        } else {
+            startService(intent);
+        }
     }
 
     public void onUartClick(View view) {
         startActivity(new android.content.Intent(this, UartMainActivity.class));
     }
 
-
-    public void onOffClick(View view) {
-        sendBroadcast(new Intent("android.intent.action.SHUTDOWN"));
-    }
     int ledopened = 0;
     public void onLedClick(View view) {
         if(ledopened == 0) {
@@ -44,61 +56,139 @@ public class MainActivity extends Activity {
             ledopened = 0;
         }
     }
-
-    public void onRebootClick(View view) {
-        sendBroadcast(new Intent("android.intent.action.REBOOT"));
+    // ==================== 权限与定位相关 ====================
+    // 检查并请求位置权限
+    private void checkAndRequestLocationPermissions() {
+        if (!PermissionUtils.hasLocationPermission(this)) {
+            // 没有位置权限，需要请求
+            requestLocationPermissions();
+        } else {
+            // 已有位置权限，检查后台权限
+            checkBackgroundLocationPermission();
+        }
     }
 
-    public void onFactoryRestOnclick(View view) {
-        sendBroadcast(new Intent("android.intent.action.FACTORY_RESET"));
+    // 请求位置权限
+    private void requestLocationPermissions() {
+        // 如果需要向用户解释为什么需要权限
+        if (PermissionUtils.shouldShowRequestPermissionRationale(this)) {
+            showPermissionExplanationDialog();
+        } else {
+            // 直接请求权限
+            String[] permissions;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                permissions = new String[]{
+                        Manifest.permission.ACCESS_FINE_LOCATION,
+                        Manifest.permission.ACCESS_COARSE_LOCATION,
+                };
+            } else {
+                permissions = new String[]{
+                        Manifest.permission.ACCESS_FINE_LOCATION
+                };
+            }
+
+            ActivityCompat.requestPermissions(this,
+                    permissions,
+                    LOCATION_PERMISSION_REQUEST_CODE
+            );
+        }
     }
 
-    public void onSNClick(View view) {
-        String sn = android.os.Build.SERIAL;
-        Toast.makeText(this, sn, Toast.LENGTH_SHORT).show();
+    // 显示权限说明对话框
+    private void showPermissionExplanationDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("需要位置权限")
+                .setMessage("应用需要位置权限来提供定位服务，是否授权？")
+                .setPositiveButton("确定", (dialog, which) -> {
+                    // 用户点击确定，请求权限
+                    String[] permissions = {
+                            Manifest.permission.ACCESS_FINE_LOCATION,
+                            Manifest.permission.ACCESS_COARSE_LOCATION
+                    };
+                    ActivityCompat.requestPermissions(this,
+                            permissions,
+                            LOCATION_PERMISSION_REQUEST_CODE
+                    );
+                })
+                .setNegativeButton("取消", null)
+                .show();
     }
 
-    public void onScreenshotClick(View view) {
-        sendBroadcast(new Intent("android.intent.action.SCREENSHOT"));
+    // 检查后台位置权限（Android 10+）
+    private void checkBackgroundLocationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q &&
+                !PermissionUtils.hasBackgroundLocationPermission(this)) {
+
+            // 请求后台位置权限
+            ActivityCompat.requestPermissions(this,
+                    new String[]{
+                            Manifest.permission.ACCESS_BACKGROUND_LOCATION,
+                            Manifest.permission.INTERNET,
+                            Manifest.permission.ACCESS_NETWORK_STATE,
+                            Manifest.permission.WAKE_LOCK,
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE
+                    },
+                    BACKGROUND_LOCATION_PERMISSION_REQUEST_CODE
+            );
+        } else {
+            // 所有权限都已获取，开始位置监控
+            startLocationMonitoring();
+        }
     }
 
-    public void onBrightnessClick(View view) {
-        toggleBrightness();
-    }
+    // 处理权限请求结果
+    @Override
+    public void onRequestPermissionsResult(int requestCode,  String[] permissions,
+                                            int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-    private static int brightnessleve = 0;
-    private void toggleBrightness(){
-        brightnessleve = (brightnessleve+1)%4;
-        switch(brightnessleve){
-            case 0:
-                setBrightness(25);
+        switch (requestCode) {
+            case LOCATION_PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // 位置权限已授予，检查后台权限
+                    checkBackgroundLocationPermission();
+                } else {
+                    // 权限被拒绝
+                    handlePermissionDenied();
+                }
                 break;
-            case 1:
-                setBrightness(120);
-                break;
-            case 2:
-                setBrightness(180);
-                break;
-            case 3:
-                setBrightness(255);
+
+            case BACKGROUND_LOCATION_PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // 后台位置权限已授予
+                    startLocationMonitoring();
+                } else {
+                    // 后台权限被拒绝，但仍可以获取一次性位置
+                    Log.w("Permission", "后台位置权限被拒绝");
+                    startLocationMonitoring();
+                }
                 break;
         }
     }
 
-    private void setBrightness(final int brightness) {
-        AsyncTask.execute(new Runnable() {
-            public void run() {
-                Settings.System.putInt(MainActivity.this.getContentResolver(),
-                        Settings.System.SCREEN_BRIGHTNESS, brightness); }
-        });
+    private void startLocationMonitoring() {
+        // 启动位置服务
+        Intent intent = new Intent(this, LocationService.class);
+        startService(intent);
     }
-    //音量
-    public void onAudioClick(View view) {
-        AudioManager  mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-        int currentVolume = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC); //获取音量
-        Toast.makeText(this, "currentVolume:"+currentVolume, Toast.LENGTH_SHORT).show();
-        mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 12, 0); //设置音量
+    // 处理权限被拒绝的情况
+    private void handlePermissionDenied() {
+        new AlertDialog.Builder(this)
+                .setTitle("权限被拒绝")
+                .setMessage("位置权限被拒绝，应用将无法提供定位服务。你可以在设置中手动授权。")
+                .setPositiveButton("去设置", (dialog, which) -> {
+                    // 跳转到应用设置页面
+                    openAppSettings();
+                })
+                .setNegativeButton("取消", null)
+                .show();
     }
-    ///FOTA
 
+    // 打开应用设置页面
+    private void openAppSettings() {
+        Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        Uri uri = Uri.fromParts("package", getPackageName(), null);
+        intent.setData(uri);
+        startActivity(intent);
+    }
 }

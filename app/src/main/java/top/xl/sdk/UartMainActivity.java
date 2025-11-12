@@ -82,6 +82,7 @@ public class UartMainActivity extends Activity  implements View.OnClickListener 
                                     if(isSuccess){
                                         btn_open.setVisibility(View.GONE);
                                         btn_close.setVisibility(View.VISIBLE);
+                                        btn_send.setVisibility(View.VISIBLE);
                                     }
                                 }
 
@@ -91,6 +92,7 @@ public class UartMainActivity extends Activity  implements View.OnClickListener 
                                     tv_textView.append("已关闭\n");
                                     btn_open.setVisibility(View.VISIBLE);
                                     btn_close.setVisibility(View.GONE);
+                                    btn_send.setVisibility(View.GONE);
                                 }
                             })
                             .setListener(new EasySerialPort.OnSerialPortReceivedListener() {
